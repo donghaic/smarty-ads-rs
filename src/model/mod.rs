@@ -6,8 +6,8 @@ pub struct Request {
     pub usr: String,
     pub ad_id: Vec<i64>,
     pub service_type: i64,
-    pub model: String,
-    pub is_debug: bool,
+    pub model: Option<String>,
+    pub is_debug: Option<bool>,
 }
 
 impl Request {

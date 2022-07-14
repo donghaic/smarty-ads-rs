@@ -131,7 +131,8 @@ impl AdsDB {
     }
 
     pub(crate) fn query_temp_click(&self, _usr: &str) -> f64 {
-        todo!()
+        1.0
+        //todo!()
     }
 
     /// =================================================
